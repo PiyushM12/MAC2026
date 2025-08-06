@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div id="main" className="relative ">
       <Head>
-        <title>MAC2025 Homepage</title>
+        <title>MAC2026</title>
         <meta name="description" content="MAC-2024" />
         <link rel="icon" href="/icon2.png" />
       </Head>
