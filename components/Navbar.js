@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className=" flex flex-start">
           <Link href="/">
             <p className=" cursor-pointer font-extrabold">
-              <span className="text-orange-400">MAC</span>
+              <span className="text-blue-400">MAC</span>
               <span className="text-white">2026</span>
             </p>
           </Link>
@@ -28,8 +28,8 @@ const Navbar = () => {
         <Link href="/">
           <span
             className={`${
-              router.pathname == "/" ? "  text-orange-400 " : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+              router.pathname == "/" ? " text-blue-400 " : "text-white"
+            } cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-blue-400 hover:border-blue-400`}
           >
             About
           </span>
@@ -38,19 +38,19 @@ const Navbar = () => {
           <span
             className={`${
               router.pathname == "/Committee"
-                ? " text-orange-400"
+                ? " text-blue-400"
                 : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+            } cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-blue-400 hover:border-blue-400`}
           >
             Committee
           </span>
         </Link>
         <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
+          className={` text-blue-400 hover:border-blue-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
         >
           <label
             tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
+            className=" hover:text-blue-400 m-1 relative text-white"
           >
             Program{" "}
           </label>
@@ -63,9 +63,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/keynote1"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300 hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Keynotes
                 </li>
@@ -74,9 +74,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/workshop"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Workshop
                 </li>
@@ -85,9 +85,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/yp"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   YP
                 </li>
@@ -96,9 +96,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/wie"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   WIE
                 </li>
@@ -107,9 +107,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/sight"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   SIGHT
                 </li>
@@ -118,9 +118,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/conferenceSchedule"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Conference Schedule
                 </li>
@@ -131,18 +131,18 @@ const Navbar = () => {
         <Link href="/tracks">
           <span
             className={`${
-              router.pathname == "/tracks" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+              router.pathname == "/tracks" ? " text-blue-400" : "text-white"
+            } cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-blue-400 hover:border-blue-400`}
           >
             Tracks
           </span>
         </Link>
         <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
+          className={` text-blue-400 hover:border-blue-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
         >
           <label
             tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
+            className=" hover:text-blue-400 m-1 relative text-white"
           >
             Authors{" "}
           </label>
@@ -155,9 +155,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/PaperSubmission"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300 hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Paper Submission
                 </li>
@@ -166,9 +166,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/dates"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Important Dates
                 </li>
@@ -177,9 +177,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/tracks"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Call For Papers
                 </li>
@@ -191,11 +191,11 @@ const Navbar = () => {
           </div>
         </span>
         <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
+          className={` text-blue-400 hover:border-blue-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
         >
           <label
             tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
+            className=" hover:text-blue-400 m-1 relative text-white"
           >
             Awards{" "}
           </label>
@@ -208,9 +208,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/PaperSubmission"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300 hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Best Paper Award
                 </li>
@@ -219,14 +219,14 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/dates"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
-                 Competitions
+                  Competitions
                 </li>
               </Link>
-             
+              
               {/*<a href='/MAC_2023_SCHEDULE.pdf' download={true}>
     <li className='hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2'>Download Schedule</li>
   </a>*/}
@@ -237,8 +237,8 @@ const Navbar = () => {
         {/* <Link href="/awards">
           <span
             className={`${
-              router.pathname == "/tuned" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+              router.pathname == "/tuned" ? " text-blue-400" : "text-white"
+            } cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-blue-400 hover:border-blue-400`}
           >
             Awards
             
@@ -248,8 +248,8 @@ const Navbar = () => {
         <Link href="/Sponsor">
           <span
             className={`${
-              router.pathname == "/Sponsor" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+              router.pathname == "/Sponsor" ? " text-blue-400" : "text-white"
+            } cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-blue-400 hover:border-blue-400`}
           >
             Sponsors
           </span>
@@ -258,20 +258,20 @@ const Navbar = () => {
           <span
             className={`${
               router.pathname == "/registration"
-                ? " text-orange-400"
+                ? " text-blue-400"
                 : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+            } cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-blue-400 hover:border-blue-400`}
           >
             Registration
           </span>
         </Link>
 
         <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
+          className={` text-blue-400 hover:border-blue-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
         >
           <label
             tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
+            className=" hover:text-blue-400 m-1 relative text-white"
           >
             Accommodation{" "}
           </label>
@@ -284,9 +284,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/tuned"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300 hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Conference venue
                 </li>
@@ -295,9 +295,9 @@ const Navbar = () => {
                 <li
                   className={`${
                     router.pathname == "/tuned"
-                      ? " hover:border-orange-400 text-orange-400"
+                      ? " hover:border-blue-400 text-blue-400"
                       : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
+                  } hover:bg-blue-300  hover:text-black rounded-lg w-full text-left p-2`}
                 >
                   Accommodation
                 </li>
@@ -308,8 +308,8 @@ const Navbar = () => {
         <Link href="/Gallery">
           <span
             className={`${
-              router.pathname == "/Gallery" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
+              router.pathname == "/Gallery" ? " text-blue-400" : "text-white"
+            } cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-blue-400 hover:border-blue-400`}
           >
             Gallery
           </span>

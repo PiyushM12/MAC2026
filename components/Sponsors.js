@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+//here
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -25,7 +25,7 @@ export default function Sponsors() {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
-          className="mySwiper w-[100%] h-[100px] lg:h-[300px] bg-white rounded-lg"
+          className="mySwiper w-[100%] h-[100px] lg:h-[300px] bg-gradient-to-r from-blue-800 to-sky-300 rounded-lg"
         >
           {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
           <div className="w-32 h-32 flex justify-center items-center p-4">

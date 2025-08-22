@@ -7,7 +7,7 @@ import { BsTwitter, BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
-      <footer className="relative bg-stone-50 body-font border-t-2 border-stone-600">
+      <footer className="relative bg-gradient-to-r from-blue-800 to-sky-300 body-font border-t-2 border-stone-600">
         <div className=" px-5 py-12 mx-auto flex sm:items-start sm:flex-row  flex-wrap flex-col">
           <div className="lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
             {/* <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">
@@ -18,7 +18,7 @@ const Footer = () => {
 
           <div className="flex-grow flex flex-wrap  lg:mt-0 mt-10 lg:text-left text-center ">
             <div className="flex flex-col items-center w-72  py-2 justify-start">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded">
+              <h2 className="title-font font-medium text-black tracking-widest text-xl mb-2 border-b-4 border-black pb-1 md:pb-2 rounded">
                 Quick Links
               </h2>
               {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
@@ -28,7 +28,7 @@ const Footer = () => {
                     href="https://mtt.org/"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500 s cursor-pointer"
                   >
                     IEEE MTT
                   </a>
@@ -38,7 +38,7 @@ const Footer = () => {
                     href="https://ieeeaps.org/"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500 s cursor-pointer"
                   >
                     IEEE APS
                   </a>
@@ -48,7 +48,7 @@ const Footer = () => {
                     href="https://www.comsoc.org/"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500 s cursor-pointer"
                   >
                     IEEE COMSOC
                   </a>
@@ -56,7 +56,7 @@ const Footer = () => {
               </nav>
             </div>
             <div className="flex flex-col items-center md:items-start w-72  py-2 justify-start">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded">
+              <h2 className="title-font font-medium text-black tracking-widest text-xl mb-2 border-b-4 border-black pb-1 md:pb-2 rounded">
                 Connect With IEEE
               </h2>
               {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
@@ -66,7 +66,7 @@ const Footer = () => {
                     href="https://www.ieee.org/membership/join/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=join"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500 cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500 cursor-pointer"
                   >
                     Join
                   </a>
@@ -76,7 +76,7 @@ const Footer = () => {
                     href="https://www.ieee.org/membership/renew.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=renew"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500  cursor-pointer"
                   >
                     Renew
                   </a>
@@ -86,7 +86,7 @@ const Footer = () => {
                     href="https://www.ieee.org/membership/benefits/index.html"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500  cursor-pointer"
                   >
                     Benefits
                   </a>
@@ -96,7 +96,7 @@ const Footer = () => {
                     href="https://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=collabratec-membership-list"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500 s cursor-pointer"
                   >
                     IEEE Collabratec
                   </a>
@@ -106,7 +106,7 @@ const Footer = () => {
                     href="https://ieeexplore.ieee.org/Xplore/home.jsp"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer"
+                    className="font-bold text-black hover:text-rose-500 s cursor-pointer"
                   >
                     IEEE Xplore
                   </a>
@@ -114,15 +114,15 @@ const Footer = () => {
               </nav>
             </div>
             <div className="flex flex-col items-center justify-start w-72  py-2 lg:items-start">
-              <h2 className="text-left title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded ">
+              <h2 className="text-left title-font font-medium text-black tracking-widest text-xl mb-2 border-b-4 border-black pb-1 md:pb-2 rounded ">
                 Contact Information
               </h2>
               {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
               <nav className="list-none mb-10 mt-3">
-                <li className="text-gray-600 hover:text-gray-800 cursor-pointer ">
+                <li className="text-black hover:text-gray-800 cursor-pointer ">
                   <b>EMAIL:</b> ieeemacmnnit2026@gmail.com
                 </li>
-                <li className="text-gray-600 hover:text-gray-800 ">
+                <li className="text-black hover:text-gray-800 ">
                   <b>PHONE:</b> +91 7800601025
                 </li>
                 {/*<li className="text-gray-600 hover:text-gray-800">Organizing Secretary, MAC2024</li>

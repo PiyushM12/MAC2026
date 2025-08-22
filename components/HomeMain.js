@@ -30,7 +30,7 @@ const HomeMain = () => {
         <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10 ">
           <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10 ">
             <div className="font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4 mb-6">
-              <span className="text-orange-400"></span>{" "}
+              <span className="text-black"></span>{" "}
               <span className="text-white">
                 4th International Conference on
               </span>{" "}
@@ -38,7 +38,7 @@ const HomeMain = () => {
               <span className="text-white">, Antenna and</span>{" "}
               <span className="text-white">Communication </span>{" "}
               <span className="text-white">2026 </span>
-              <span className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+              <span className="text-blue-200 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
                 <br />
               </span>
             </div>
@@ -79,7 +79,7 @@ const HomeMain = () => {
             <a
               href="#"
               download={true}
-              className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900"
+              className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900"
             >
               Call For Papers <br />
               (Announcing soon)
@@ -87,14 +87,14 @@ const HomeMain = () => {
 
             <a
               href=""
-              className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900"
+              className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900"
             >
               Submit Papers <br />
               (Announcing soon)
             </a>
 
             <Link href="/registration">
-              <span className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900">
+              <span className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900">
                 Registration <br /> (Announcing soon)
               </span>
             </Link>
@@ -107,20 +107,20 @@ const HomeMain = () => {
           <div className=" container mx-auto flex md:px-5 py-2 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 px-6 lg:pr-24 md:pr-16 relative flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">
-                <span className="text-orange-400">MAC</span>2026
+                <span className="text-blue-400">MAC</span>2026
               </h1>
               <h2 className="text-lg">
                 <span>Co-Organised By</span>
 
                 <p>
-                  <span className="text-orange-500 font-bold text-xl block">
+                  <span className="text-blue-500 font-bold text-xl block">
                     MNNIT ALLAHABAD, India
                   </span>
-                  <span className="text-orange-500 font-bold text-xl block">
+                  <span className="text-blue-500 font-bold text-xl block">
                     RGPV Bhopal, India
                   </span>
 
-                  <span className="text-orange-500 font-bold text-xl block">
+                  <span className="text-blue-500 font-bold text-xl block">
                     MANIT Bhopal, India
                   </span>
                 </p>
@@ -166,7 +166,7 @@ const HomeMain = () => {
                   (Announcing soon)
                 </span>
               </h1>
-              <h2 className="text-orange-600 font-bold text-xl mb-6">
+              <h2 className="text-blue-600 font-bold text-xl mb-6">
                 MICROWAVE , ANTENNA AND COMMUNICATION
               </h2>
               <p className="text-lg font-semibold">
@@ -196,7 +196,7 @@ const HomeMain = () => {
                 All papers must be submitted in PDF via Microsoft CMT:
               </p>
               <a
-                className="text-rose-500 cursor-pointer inline-block md:text-lg"
+                className="text-blue-500 cursor-pointer inline-block md:text-lg"
                 href="https://cmt3.research.microsoft.com/MAC2025/"
                 target="_blank"
                 rel="noreferrer"
