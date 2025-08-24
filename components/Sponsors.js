@@ -25,7 +25,11 @@ export default function Sponsors() {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
+<<<<<<< HEAD
           className="mySwiper w-[100%] h-[100px] lg:h-[300px] bg-gradient-to-r from-blue-800 to-sky-300 rounded-lg"
+=======
+          className="mySwiper w-[100%] h-[100px] lg:h-[300px] bg-blue rounded-lg"
+>>>>>>> 9f60bd968d09dfcd044c5b8f8385f15dcf27a3bd
         >
           {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
           <div className="w-32 h-32 flex justify-center items-center p-4">
@@ -85,7 +89,7 @@ export default function Sponsors() {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
-          className="mySwiper w-[100%] h-[200px] lg:h-[300px] bg-white rounded-lg"
+          className="mySwiper w-[100%] h-[200px] lg:h-[300px] bg-blue rounded-lg"
         >
           {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
           <div>
